@@ -1,0 +1,50 @@
+/*Selector {
+	Property: value;
+}*/
+
+* {
+	text-align: right;
+}
+
+body {
+	/*the following adds a background image*/
+	background-image: url(https://images.unsplash.com/photo-1594725364617-b2797f95a50e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+	background-size: cover; /*this covers the background regardless of the size */
+}
+
+h2, p{
+	color: #FF7F19;
+	text-align: center; 
+	border: 5px solid rgba(244,160,25,0.4); /*last number adds opacity*/
+	cursor: pointer; /*changes the cursor when hovering over this section*/
+}
+
+p {
+	color: pink;
+}
+
+p{
+	color: green; 
+}
+
+li {
+	list-style: none; /*makes the dots go away*/
+	display: inline-block; /*allows it to be ordered in line rather than listing them, block would list them.*/
+}
+
+
+.webtext {
+	border: 5px dashed green;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background: rgba(0,0,255,0.2);
+}
+
+#div2 {
+	background: rgba(255,0,0,0.2);
+}
